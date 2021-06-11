@@ -1,2 +1,2 @@
 # welcome to pytube
-<a href="/page2.html">page2</a>
+<a href="/jp.html">page2</a>
