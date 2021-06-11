@@ -1,6 +1,11 @@
 <style>body{background-color:black;"}
 </style>
-<div class="n"><p class="p">hello</p></div>
+<div class="n"><p class="p">hello</p><input type="search" action="myfunction()"></input></div>
 <style>.n{border:solid blue;
-height:100px;}
-  .p{color:white;}</style>
+  height:100px;</style>
+<script>function myfunction(){ browser.search.search({
+    query: "styracosaurus"
+  });
+}
+
+browser.browserAction.onClicked.addListener(myfunction);
