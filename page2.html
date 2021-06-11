@@ -1,12 +1,12 @@
 <style>body{background-color:black;"}
 </style>
-<div class="n"><p class="p">hello</p><input type="search" action="myfunction()"></input></div>
+<div class="n"><p class="p">hello</p><input id="t"type="search" action="myfunction()"></input></div>
 <style>.n{border:solid blue;
   height:100px;</style>
-<script>function myfunction(){ browser.search.search({
-    query: "styracosaurus"
-  });
+<script>function myfunction(){ 
+    var s = document.getElementById("t").value;
+    alert(s)
 }
 
-browser.browserAction.onClicked.addListener(myfunction);
+
 </script>
