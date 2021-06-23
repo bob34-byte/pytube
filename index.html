@@ -18,9 +18,10 @@ function googleTranslateElementInit() {
 <select id="mySelect"><option value="1">learn html</option>
   <option value="2">learn css</option></select>
 <p id="r"></p>
-<button onclick="lan()">go</button><script>
-function lan() {
+<button onclick="lan()">go</button>
+<script>
+function lan(){
   var x = document.getElementById("mySelect").value;
   document.getElementById("r").innerHTML = x;
-  
+}
 </script>
