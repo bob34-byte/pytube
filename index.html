@@ -11,8 +11,8 @@ function googleTranslateElementInit() {
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
 }
-var lang =   documentgetElementById("l").innerText;
-  if(lang == "learn css"){
+var lang = document.getElementById("l");
+  if(lang.innerText == "learn css"){
     window.location.href="learncss.html";
   }
 </script>
