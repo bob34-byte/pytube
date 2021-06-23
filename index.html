@@ -5,6 +5,7 @@ function googleTranslateElementInit() {
 }
 </script>
 
+
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script type="text/javascript">
@@ -16,11 +17,10 @@ function googleTranslateElementInit() {
   
 <select id="mySelect"><option value="1">learn html</option>
   <option value="2">learn css</option></select>
+<p id="r"></p>
 <button onclick="lan()">go</button><script>
 function lan() {
   var x = document.getElementById("mySelect").value;
-  if(x= 1){
-    window.location.href ='learnhtml.html';
-  }
+  document.getElementById("r").innerHTML = x;
   
 </script>
