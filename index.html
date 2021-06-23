@@ -15,8 +15,9 @@ function googleTranslateElementInit() {
 </script>
   
 <select id="mySelect"><option>learn html</option>
-  <option>learn css</option></select><script>
-function myFunction() {
+  <option>learn css</option></select>
+<button onclick="lan()">go</button><script>
+function lan() {
   var x = document.getElementById("mySelect").selectedIndex;
   var y = document.getElementById("mySelect").options;
   alert("Index: " + y[x].index + " is " + y[x].text);
