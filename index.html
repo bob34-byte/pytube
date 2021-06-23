@@ -19,3 +19,9 @@ var lang = document.getElementById("l");
   
 <select><option>learn html</option>
   <option>learn css</option></select>
+function myFunction() {
+  var x = document.getElementById("mySelect").selectedIndex;
+  var y = document.getElementById("mySelect").options;
+  alert("Index: " + y[x].index + " is " + y[x].text);
+}
+</script>
