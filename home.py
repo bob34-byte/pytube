@@ -1,7 +1,7 @@
 import requests
 from requests_html import HTMLSession
  
-url = "https://www.searchenginejournal.com/introduction-to-python-seo-spreadsheets/342779/"
+url = "https://www.google.com/"
  
 try:
     session = HTMLSession()
